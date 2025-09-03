@@ -1,6 +1,10 @@
 import { ReactElement } from "react";
+import { UseFormRegister, FieldErrors } from "react-hook-form";
+import { Step1Inputs, Step2Inputs, Step3Inputs } from "../../types";
 
-const Step3 = ({ register, errors }: { register: any, errors: any }):ReactElement => {
+type FormData = Step1Inputs & Step2Inputs & Step3Inputs;
+
+const Step3 = ({ register, errors }: { register: UseFormRegister<FormData>, errors: FieldErrors<FormData> }):ReactElement => {
     return (
         <div className="space-y-4 text-white">
         <div>

@@ -25,7 +25,7 @@ const Step1 = () => {
         
           {/* Supporting Text */}
           <p className="max-w-xl text-base sm:text-base md:text-sm text-gray-200 leading-relaxed mt-8 text-left">
-  Novi's prescription program is scientifically proven to help you reach 
+  Novi&apos;s prescription program is scientifically proven to help you reach 
   your goal weight 58.5% faster.
 </p>
         </div>
